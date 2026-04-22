@@ -13,11 +13,12 @@ main {
 }
 
 @theme inline {
+  /* Definir los colores como el --color-secundary para poder usarlos de forma global, es decir, aplicarlo como color a cualquier propiedad */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --secundary: #f5741c;
+  --color-secundary: #f5741c;
   --darkBg: #131424;
   --gradient-cover: linear-gradient(
     90.21deg,
@@ -32,6 +33,9 @@ main {
   }
 }
 
+.secundary {
+  color: var(--secundary);
+}
 /* :root {
   --background: #ffffff;
   --foreground: #171717;

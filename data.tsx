@@ -3,11 +3,7 @@ import {
   CodeSquare,
   HomeIcon,
   UserRound,
-  Linkedin,
-  Twitter,
   Rss,
-  Twitch,
-  Youtube,
   Crop,
   Pencil,
   Computer,
@@ -18,28 +14,8 @@ import {
 
 export const socialNetworks = [
   {
-    id: 1,
-    logo: <Youtube size={30} strokeWidth={1} />,
-    src: "#!",
-  },
-  {
-    id: 2,
-    logo: <Linkedin size={30} strokeWidth={1} />,
-    src: "#!",
-  },
-  {
-    id: 3,
-    logo: <Twitter size={30} strokeWidth={1} />,
-    src: "#!",
-  },
-  {
     id: 4,
     logo: <Rss size={30} strokeWidth={1} />,
-    src: "#!",
-  },
-  {
-    id: 5,
-    logo: <Twitch size={30} strokeWidth={1} />,
     src: "#!",
   },
 ];
