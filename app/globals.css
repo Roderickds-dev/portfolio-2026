@@ -12,7 +12,6 @@ main {
   height: 100dvh;
 }
 
-
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -22,7 +21,7 @@ main {
   --darkBg: #131424;
   --gradient-cover: linear-gradient(
     90.21deg,
-    rgba(70, 54, 124, 0.5) -5.91%,
+    rgba(170, 54, 124, 0.5) -5.91%,
     rgba(74, 47, 189, 0.5) 111.58%
   );
 }
