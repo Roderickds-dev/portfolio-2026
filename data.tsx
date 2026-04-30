@@ -12,12 +12,26 @@ import {
   Speech,
 } from "lucide-react";
 
+import { SlSocialLinkedin } from "react-icons/sl";
+import { FiGithub } from "react-icons/fi";
+
 export const socialNetworks = [
+  { 
+    id: 1,
+    logo: <SlSocialLinkedin size={30} strokeWidth={1}/>,
+    src: "#!"
+  },
+  { 
+    id: 2,
+    logo: <FiGithub size={30} strokeWidth={1}/>,
+    src: "#!"
+  },
   {
-    id: 4,
+    id: 3,
     logo: <Rss size={30} strokeWidth={1} />,
     src: "#!",
   },
+
 ];
 
 export const itemsNavbar = [
